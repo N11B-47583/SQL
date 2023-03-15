@@ -1,5 +1,6 @@
 CREATE OR ALTER FUNCTION dbo.StringSplit (@string varchar(1024), @delimiter char(1) = ',')
 RETURNS @result TABLE (
+						lp int identity,
 						result varchar(100)
 						)
 AS
