@@ -1,5 +1,5 @@
 CREATE FUNCTION getAge (@birthDay date)
-RETURNS int 
+RETURNS tinyint 
 AS 
 BEGIN
 RETURN (
